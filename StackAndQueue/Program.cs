@@ -15,6 +15,8 @@ namespace StackAndQueue
             queue.enqueue(30);
             queue.enqueue(70);
             queue.display();
+            queue.dequeue();
+            queue.display();
         }
     }
 }

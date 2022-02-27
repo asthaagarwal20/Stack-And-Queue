@@ -26,6 +26,10 @@ namespace StackAndQueue
                 temp.next = newNode;
             }
         }
+        public void dequeue()
+        {
+            head = head.next;
+        }
         public void display()
         {
             Node temp = head;
